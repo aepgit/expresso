@@ -10,22 +10,23 @@ nav#mainNav.navbar.navbar-default.navbar-fixed-top
 								span.icon-bar
 								|                     
 								span.icon-bar
-							|                 
-							a.navbar-brand.page-scroll(href='/') FitLog.io
+							|                  
+							a.navbar-brand.page-scroll(href='/') Antti Pohjola
 						// Collect the nav links, forms, and other content for toggling
 						#bs-example-navbar-collapse-1.collapse.navbar-collapse
 							ul.nav.navbar-nav.navbar-right
 								li
-										a(href='/blog') Blog
-								li
-										a.page-scroll(href='#about') About
-								li
-										a.page-scroll(href='#services') Services
-								|                     
-								li
-										a.page-scroll(href='#portfolio') Portfolio
-								|                     
-								li
-										a.page-scroll(href='#contact') Contact
-								// /.navbar-collapse
-								// /.container-fluid
+										a(href='/blog') Dotastream
+								if path === '/'
+									li
+											a.page-scroll(href='#about') About
+									li
+											a.page-scroll(href='#services') Services
+									|                     
+									li
+											a.page-scroll(href='#portfolio') Portfolio
+									|                     
+									li
+											a.page-scroll(href='#contact') Contact
+									// /.navbar-collapse
+									// /.container-fluid
