@@ -8,6 +8,7 @@ var postsLists = Object.keys(posts).map(function(value) {
 	return posts[value]
 })
 
+
 var app = express();
 
 app.use('/static', express.static(__dirname + '/public'))
